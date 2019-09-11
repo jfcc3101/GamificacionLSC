@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyecto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activitydiciembre"></activity>
+        <activity android:name=".Activitynoviembre" />
+        <activity android:name=".Activityoctubre" />
+        <activity android:name=".Activityseptiembre" />
+        <activity android:name=".Activityagosto" />
+        <activity android:name=".Activityjulio" />
+        <activity android:name=".Activityjunio" />
+        <activity android:name=".Activitymayo" />
+        <activity android:name=".Activityabril" />
+        <activity android:name=".Activitymarzo" />
+        <activity android:name=".Activityfebrero" />
+        <activity android:name=".Activityenero" />
+        <activity android:name=".Activitydiez" />
+        <activity android:name=".Activitynueve" />
+        <activity android:name=".Activityocho" />
+        <activity android:name=".Activitysiete" />
+        <activity android:name=".Activityseis" />
+        <activity android:name=".Activitycinco" />
+        <activity android:name=".Activitycuatro" />
+        <activity android:name=".Activitytres" />
+        <activity android:name=".Activitydos" />
+        <activity android:name=".Activityuno" />
+        <activity android:name=".Activitydomingo" />
+        <activity android:name=".Activitysabado" />
+        <activity android:name=".Activityviernes" />
+        <activity android:name=".Activityjueves" />
+        <activity android:name=".Activitymiercoles" />
+        <activity
+            android:name=".Activitymartes"
+            android:label="@string/title_activity_activitymartes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activitylunes" />
+        <activity android:name=".Activityverde" />
+        <activity android:name=".Activityblanco" />
+        <activity android:name=".Activityamarillo" />
+        <activity android:name=".Activityrojo" />
+        <activity android:name=".Activitycolores" />
+        <activity android:name=".Activityfamilia" />
+        <activity android:name=".Activitymeses" />
+        <activity android:name=".Activitydias" />
+        <activity android:name=".Activityabecedario" />
+        <activity android:name=".Activitynumeros" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
