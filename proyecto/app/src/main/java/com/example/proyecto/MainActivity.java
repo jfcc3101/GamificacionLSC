@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 openActivityabecedario();
             }
         });
-        button = (ImageButton) findViewById(R.id.indicaciones);
+        button = (ImageButton) findViewById(R.id.preguntas);
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -95,5 +95,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activitycolores.class);
         startActivity(intent);
 
+    }
+    public void openActivitypruebas() {
+        Intent intent = new Intent(this, ActivityPrueba.class);
+        startActivity(intent);
     }
 }
