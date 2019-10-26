@@ -16,7 +16,6 @@ public class Activityuno extends AppCompatActivity {
 
 
 
-        button =
         button = (ImageButton) findViewById(R.id.izquierda);
         button.setOnClickListener(new View.OnClickListener() {
 

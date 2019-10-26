@@ -63,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
                 openActivitycolores();
             }
         });
+        button = (ImageButton) findViewById(R.id.preguntas);
+        button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openActivityPrueba2();
+            }
+        });
 
     }
 
@@ -96,8 +104,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-    public void openActivitypruebas() {
-        Intent intent = new Intent(this, ActivityPrueba.class);
+    public void openActivityPrueba2() {
+        Intent intent = new Intent(this, ActivityPrueba2.class);
         startActivity(intent);
     }
 }
