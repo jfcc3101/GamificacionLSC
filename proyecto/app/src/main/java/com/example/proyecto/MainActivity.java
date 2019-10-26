@@ -9,6 +9,11 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
     private ImageButton button;
+    public int puntaje=0;
+
+    public void setPuntaje(int puntaje) {
+        this.puntaje = puntaje;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

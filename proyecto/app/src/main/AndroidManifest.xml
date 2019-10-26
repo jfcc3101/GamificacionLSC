@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ActivityPruebaI1"
+            android:label="@string/title_activity_prueba_i1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".ActivityPrueba2"
             android:label="@string/title_activity_prueba2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activitydiciembre" />
         <activity android:name=".Activitynoviembre" />
         <activity android:name=".Activityoctubre" />
